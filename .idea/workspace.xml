@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9151a522-6184-43cb-b441-a1bc979d513e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/abstractclasses/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractclasses/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractclasses/Mentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractclasses/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractclasses/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Carnivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Carnivore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Herbivore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Herbivore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -32,17 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/namanbhalla/IdeaProjects/ScalerLLD/scalerLLDJune2022/src/constructors&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/ScalerLLD/scalerLLDJune2022/src/abstractclasses",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/abstractclasses" />
       <recent name="$PROJECT_DIR$/src/constructors" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -50,13 +54,13 @@
       <recent name="accessmodifiers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.interfaces.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="overriding.Main" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractclasses.Client" />
       <module name="scalerLLDJune2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="overriding.*" />
+          <option name="PATTERN" value="abstractclasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="constructorchaining.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="constructorchaining.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="overriding.Main" />
       <module name="scalerLLDJune2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="constructorchaining.*" />
+          <option name="PATTERN" value="overriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.interfaces.Main" />
         <item itemvalue="Application.polymorphism.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.overloading.Main" />
-        <item itemvalue="Application.constructorchaining.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +141,8 @@
       <workItem from="1654106390233" duration="994000" />
       <workItem from="1654272640809" duration="6309000" />
       <workItem from="1654358830914" duration="1000" />
-      <workItem from="1654530387843" duration="7434000" />
+      <workItem from="1654530387843" duration="8281000" />
+      <workItem from="1654707801430" duration="1942000" />
     </task>
     <servers />
   </component>
@@ -195,6 +200,10 @@
         <PinnedItemInfo parentTag="inheritance.Mentor" memberName="mentees" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/scalerLLDJune2022$Main.ic" NAME="Main Coverage Results" MODIFIED="1654107036689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
