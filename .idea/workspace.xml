@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9151a522-6184-43cb-b441-a1bc979d513e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstractclasses/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractclasses/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractclasses/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractclasses/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractclasses/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/approachtwo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/approachtwo/UserExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/imptwo/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/imptwo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/imptwo/RandomClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Cat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,14 +40,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/ScalerLLD/scalerLLDJune2022/src/abstractclasses",
+    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/ScalerLLD/scalerLLDJune2022/src/designpatterns/builder/approachtwo",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/designpatterns/builder/approachtwo" />
+      <recent name="$PROJECT_DIR$/src/singleton/imptwo" />
       <recent name="$PROJECT_DIR$/src/abstractclasses" />
       <recent name="$PROJECT_DIR$/src/constructors" />
     </key>
@@ -54,7 +59,7 @@
       <recent name="accessmodifiers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.designpatterns.builder.approachtwo.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractclasses.Client" />
       <module name="scalerLLDJune2022" />
@@ -68,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="overriding.Main" />
+    <configuration name="designpatterns.builder.approachone.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.approachone.Client" />
       <module name="scalerLLDJune2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="overriding.*" />
+          <option name="PATTERN" value="designpatterns.builder.approachone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.Main" />
+    <configuration name="designpatterns.builder.approachtwo.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.approachtwo.Client" />
       <module name="scalerLLDJune2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.*" />
+          <option name="PATTERN" value="designpatterns.builder.approachtwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="overloading.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="overloading.Main" />
+    <configuration name="singleton.impone.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.impone.Main" />
       <module name="scalerLLDJune2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="overloading.*" />
+          <option name="PATTERN" value="singleton.impone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="polymorphism.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.Main" />
+    <configuration name="singleton.imptwo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.imptwo.Main" />
       <module name="scalerLLDJune2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.*" />
+          <option name="PATTERN" value="singleton.imptwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.designpatterns.builder.approachtwo.Client" />
+        <item itemvalue="Application.designpatterns.builder.approachone.Client" />
+        <item itemvalue="Application.singleton.imptwo.Main" />
+        <item itemvalue="Application.singleton.impone.Main" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.interfaces.Main" />
-        <item itemvalue="Application.polymorphism.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.overloading.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +147,9 @@
       <workItem from="1654272640809" duration="6309000" />
       <workItem from="1654358830914" duration="1000" />
       <workItem from="1654530387843" duration="8281000" />
-      <workItem from="1654707801430" duration="1942000" />
+      <workItem from="1654707801430" duration="3084000" />
+      <workItem from="1655139923642" duration="2565000" />
+      <workItem from="1655310851597" duration="4134000" />
     </task>
     <servers />
   </component>
@@ -192,6 +199,26 @@
           <url>file://$PROJECT_DIR$/src/polymorphism/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/singleton/impone/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/singleton/imptwo/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/designpatterns/builder/approachone/Client.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/designpatterns/builder/approachtwo/Client.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
