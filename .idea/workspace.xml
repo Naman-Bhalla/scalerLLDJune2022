@@ -12,6 +12,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -52,7 +53,20 @@
       <recent name="accessmodifiers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.designpatterns.prototype.Client">
+  <component name="RunManager" selected="Application.Customer">
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.structural.decorator.icecream.Customer" />
+      <module name="scalerLLDJune2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.structural.decorator.icecream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="designpatterns.builder.approachone.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpatterns.builder.approachone.Client" />
       <module name="scalerLLDJune2022" />
@@ -92,19 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="singleton.impone.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.impone.Main" />
-      <module name="scalerLLDJune2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.impone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="singleton.imptwo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.imptwo.Main" />
       <module name="scalerLLDJune2022" />
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Customer" />
         <item itemvalue="Application.designpatterns.prototype.Client" />
         <item itemvalue="Application.designpatterns.builder.approachtwo.Client" />
         <item itemvalue="Application.designpatterns.builder.approachone.Client" />
         <item itemvalue="Application.singleton.imptwo.Main" />
-        <item itemvalue="Application.singleton.impone.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +144,8 @@
       <workItem from="1654707801430" duration="3084000" />
       <workItem from="1655139923642" duration="2565000" />
       <workItem from="1655310851597" duration="5207000" />
-      <workItem from="1655485377831" duration="4450000" />
+      <workItem from="1655485377831" duration="5194000" />
+      <workItem from="1656347256756" duration="5203000" />
     </task>
     <servers />
   </component>
@@ -231,7 +233,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/designpatterns/prototype/Client.java</url>
-          <line>61</line>
+          <line>67</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
