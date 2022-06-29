@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9151a522-6184-43cb-b441-a1bc979d513e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/flyweight/after/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/flyweight/after/BulletStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/flyweight/after/BulletType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/flyweight/after/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -30,19 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/namanbhalla/IdeaProjects/ScalerLLD/scalerLLDJune2022/src/designpatterns/builder/approachtwo&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/ScalerLLD/scalerLLDJune2022/src/designpatterns/structural/flyweight/after",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "profiler.jvm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/designpatterns/structural/flyweight/after" />
       <recent name="$PROJECT_DIR$/src/designpatterns/builder/approachtwo" />
       <recent name="$PROJECT_DIR$/src/singleton/imptwo" />
       <recent name="$PROJECT_DIR$/src/abstractclasses" />
@@ -53,13 +58,13 @@
       <recent name="accessmodifiers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Customer">
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.structural.decorator.icecream.Customer" />
+  <component name="RunManager" selected="Application.designpatterns.structural.flyweight.before.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.structural.flyweight.after.Client" />
       <module name="scalerLLDJune2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.structural.decorator.icecream.*" />
+          <option name="PATTERN" value="designpatterns.structural.flyweight.after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="designpatterns.builder.approachone.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.approachone.Client" />
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.structural.decorator.icecream.Customer" />
       <module name="scalerLLDJune2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.builder.approachone.*" />
+          <option name="PATTERN" value="designpatterns.structural.decorator.icecream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="singleton.imptwo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.imptwo.Main" />
+    <configuration name="designpatterns.structural.flyweight.before.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.structural.flyweight.before.Client" />
       <module name="scalerLLDJune2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.imptwo.*" />
+          <option name="PATTERN" value="designpatterns.structural.flyweight.before.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.designpatterns.structural.flyweight.before.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Customer" />
         <item itemvalue="Application.designpatterns.prototype.Client" />
         <item itemvalue="Application.designpatterns.builder.approachtwo.Client" />
-        <item itemvalue="Application.designpatterns.builder.approachone.Client" />
-        <item itemvalue="Application.singleton.imptwo.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +150,8 @@
       <workItem from="1655139923642" duration="2565000" />
       <workItem from="1655310851597" duration="5207000" />
       <workItem from="1655485377831" duration="5194000" />
-      <workItem from="1656347256756" duration="5203000" />
+      <workItem from="1656347256756" duration="5578000" />
+      <workItem from="1656520668169" duration="3088000" />
     </task>
     <servers />
   </component>
