@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9151a522-6184-43cb-b441-a1bc979d513e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/flyweight/after/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/flyweight/after/BulletStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/flyweight/after/BulletType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/flyweight/after/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioural/strategy/after1/GoogleMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioural/strategy/after1/TransportMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioural/strategy/after2/BikePathCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioural/strategy/after2/CarPathCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioural/strategy/after2/GoogleMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioural/strategy/after2/PathCalculationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioural/strategy/after2/TransportMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioural/strategy/after2/WalkPathCalculationStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,18 +44,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/ScalerLLD/scalerLLDJune2022/src/designpatterns/structural/flyweight/after",
+    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/ScalerLLD/scalerLLDJune2022/src/designpatterns/behavioural/strategy/after2",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "profiler.jvm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/designpatterns/behavioural/strategy/after2" />
+      <recent name="$PROJECT_DIR$/src/designpatterns/behavioural/strategy/after1" />
       <recent name="$PROJECT_DIR$/src/designpatterns/structural/flyweight/after" />
       <recent name="$PROJECT_DIR$/src/designpatterns/builder/approachtwo" />
       <recent name="$PROJECT_DIR$/src/singleton/imptwo" />
-      <recent name="$PROJECT_DIR$/src/abstractclasses" />
-      <recent name="$PROJECT_DIR$/src/constructors" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="accessmodifiers.packageone" />
@@ -151,7 +155,8 @@
       <workItem from="1655310851597" duration="5207000" />
       <workItem from="1655485377831" duration="5194000" />
       <workItem from="1656347256756" duration="5578000" />
-      <workItem from="1656520668169" duration="3088000" />
+      <workItem from="1656520668169" duration="3608000" />
+      <workItem from="1656693333626" duration="5197000" />
     </task>
     <servers />
   </component>
